@@ -70,7 +70,7 @@ export function SiteFooter() {
           </div>
 
           <nav aria-label="Navegação do rodapé">
-            <p className="font-mono text-[8.5px] uppercase tracking-[0.22em] text-brand">
+            <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-brand">
               Navegação
             </p>
             <ul className="mt-5 grid grid-cols-2 gap-x-6 gap-y-3">
@@ -88,7 +88,7 @@ export function SiteFooter() {
           </nav>
 
           <div>
-            <p className="font-mono text-[8.5px] uppercase tracking-[0.22em] text-brand">
+            <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-brand">
               Contato
             </p>
             <ul className="mt-5 space-y-4 text-[13px] text-white/60">
@@ -132,18 +132,18 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-12 flex flex-col gap-5 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
-          <p className="font-mono text-[8px] uppercase leading-[1.8] tracking-[0.14em] text-white/55">
+          <p className="font-mono text-[10px] uppercase leading-[1.8] tracking-[0.14em] text-white/55">
             © {new Date().getFullYear()} AutoTreq Figueiredo Ltda.
             <br className="sm:hidden" /> Todos os direitos reservados.
           </p>
 
           <div className="flex items-center gap-6">
-            <span className="font-mono text-[8px] uppercase tracking-[0.16em] text-white/50">
+            <span className="font-mono text-[10px] uppercase tracking-[0.16em] text-white/50">
               Terra Santa — PA
             </span>
             <a
               href="#inicio"
-              className="group inline-flex items-center gap-2 font-mono text-[8px] uppercase tracking-[0.16em] text-white/60 transition-colors hover:text-brand"
+              className="group inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.16em] text-white/60 transition-colors hover:text-brand"
             >
               Voltar ao topo
               <span className="flex h-7 w-7 items-center justify-center border border-white/12 transition-colors group-hover:border-brand">

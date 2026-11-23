@@ -61,10 +61,10 @@ export function Expertise() {
               operações industriais.
             </p>
             <div className="mt-6 flex items-center gap-3 border-t border-ink/15 pt-3">
-              <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-ink/70">
+              <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/70">
                 Base técnica
               </span>
-              <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-ink/70">
+              <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/70">
                 A — D
               </span>
             </div>
@@ -105,7 +105,7 @@ export function Expertise() {
                     aria-hidden="true"
                     className="h-px w-8 bg-brand transition-all duration-500 ease-precise group-hover:w-14"
                   />
-                  <span className="font-mono text-[8.5px] uppercase tracking-[0.22em] text-ink/70">
+                  <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-ink/70">
                     Pilar {pillar.letter}
                   </span>
                 </div>

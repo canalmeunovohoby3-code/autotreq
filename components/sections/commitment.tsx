@@ -39,7 +39,7 @@ export function Commitment() {
             style={{ "--delay": "200ms" } as CSSProperties}
             className="hidden pb-2 lg:block"
           >
-            <span className="font-mono text-[8.5px] uppercase tracking-[0.2em] text-ink/70">
+            <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/70">
               Etapas
             </span>
             <p className="num mt-1 text-4xl leading-none text-brand-deep">06</p>
@@ -74,7 +74,7 @@ export function Commitment() {
               </div>
 
               <div>
-                <span className="font-mono text-[8px] uppercase tracking-[0.2em] text-brand-deep">
+                <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-brand-deep">
                   Etapa {step.number}
                 </span>
                 <h3 className="mt-2 font-display text-[17px] font-bold uppercase leading-[1.2] tracking-[0.005em] text-ink sm:text-[19px]">
@@ -108,7 +108,7 @@ export function Commitment() {
 
           <figcaption className="mt-8 flex items-center gap-4 border-t border-white/10 pt-5">
             <span aria-hidden="true" className="h-1 w-8 bg-brand" />
-            <span className="font-mono text-[8.5px] uppercase tracking-[0.22em] text-white/60">
+            <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-white/60">
               Postura AutoTreq
             </span>
           </figcaption>

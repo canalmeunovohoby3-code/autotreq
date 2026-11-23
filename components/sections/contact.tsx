@@ -119,7 +119,7 @@ export function Contact() {
             </p>
 
             <div className="mt-10 border-t border-white/10 pt-4">
-              <p className="font-mono text-[8.5px] uppercase leading-[1.9] tracking-[0.18em] text-white/50">
+              <p className="font-mono text-[10px] uppercase leading-[1.9] tracking-[0.18em] text-white/50">
                 AutoTreq Figueiredo Ltda.
                 <br />
                 Terra Santa — Pará · Brasil
@@ -133,10 +133,10 @@ export function Contact() {
             className="lg:pt-1"
           >
             <div className="flex items-center justify-between border-t border-white/20 pt-3">
-              <span className="font-mono text-[8.5px] uppercase tracking-[0.2em] text-white/60">
+              <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-white/60">
                 Canais de contato
               </span>
-              <span className="font-mono text-[8.5px] uppercase tracking-[0.2em] text-brand">
+              <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-brand">
                 Direto
               </span>
             </div>
@@ -163,7 +163,7 @@ export function Contact() {
                     />
                   </span>
                   <span className="min-w-0 flex-1">
-                    <span className="block font-mono text-[8px] uppercase tracking-[0.2em] text-white/55">
+                    <span className="block font-mono text-[10px] uppercase tracking-[0.2em] text-white/55">
                       {channel.label}
                     </span>
                     <span className="mt-1 block break-words font-display text-[13.5px] font-medium tracking-[0.005em] text-white/90 transition-colors group-hover:text-brand sm:text-[15px]">

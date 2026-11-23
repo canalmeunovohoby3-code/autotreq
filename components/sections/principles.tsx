@@ -102,11 +102,11 @@ export function Principles() {
             data-reveal
             className="flex items-center gap-4 border-t border-ink/20 pt-3"
           >
-            <span className="flex items-center gap-2 font-mono text-[9px] uppercase tracking-[0.24em] text-ink/70">
+            <span className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.24em] text-ink/70">
               <span aria-hidden="true" className="h-1 w-1 bg-brand" />
               Direcionamento
             </span>
-            <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-ink/70">
+            <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-ink/70">
               Missão · Visão · Valores
             </span>
           </div>
@@ -123,7 +123,7 @@ export function Principles() {
                     : "border-b border-ink/15 lg:border-b-0 lg:border-r lg:px-8"
                 }`}
               >
-                <span className="flex items-center gap-2 font-mono text-[9px] uppercase tracking-[0.24em] text-ink/70">
+                <span className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.24em] text-ink/70">
                   <span aria-hidden="true" className="h-1 w-4 bg-brand" />
                   {item.index}
                 </span>
@@ -141,7 +141,7 @@ export function Principles() {
               style={{ "--delay": "200ms" } as CSSProperties}
               className="relative py-7 sm:py-9 lg:py-10 lg:pl-8 lg:pr-0"
             >
-              <span className="flex items-center gap-2 font-mono text-[9px] uppercase tracking-[0.24em] text-ink/70">
+              <span className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.24em] text-ink/70">
                 <span aria-hidden="true" className="h-1 w-4 bg-brand" />
                 03
               </span>

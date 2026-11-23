@@ -43,10 +43,10 @@ export function About() {
               className="mt-12 sm:mt-14"
             >
               <div className="flex items-center justify-between gap-4 border-t border-ink/20 pt-3">
-                <span className="font-mono text-[8.5px] uppercase tracking-[0.22em] text-ink/70">
+                <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-ink/70">
                   Indicadores institucionais
                 </span>
-                <span className="font-mono text-[8.5px] uppercase tracking-[0.22em] text-ink/70">
+                <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-ink/70">
                   03 / 02 / 01
                 </span>
               </div>
@@ -64,13 +64,13 @@ export function About() {
                       <p className="font-display text-[11px] font-semibold uppercase leading-[1.4] tracking-[0.08em] text-ink sm:text-xs">
                         {indicator.label}
                       </p>
-                      <p className="mt-1 font-mono text-[8.5px] uppercase tracking-[0.1em] text-ink/70">
+                      <p className="mt-1 font-mono text-[10px] uppercase tracking-[0.1em] text-ink/70">
                         {indicator.detail}
                       </p>
                     </div>
                     <span
                       aria-hidden="true"
-                      className="font-mono text-[9px] text-ink/70 transition-colors group-hover:text-brand-deep"
+                      className="font-mono text-[10px] text-ink/70 transition-colors group-hover:text-brand-deep"
                     >
                       /{String(index + 1).padStart(2, "0")}
                     </span>
@@ -125,7 +125,7 @@ export function About() {
                 style={{ "--delay": "260ms" } as CSSProperties}
                 className="relative overflow-hidden border-l-2 border-brand bg-[#F4F4F5] p-5 sm:p-6"
               >
-                <p className="font-mono text-[8.5px] uppercase tracking-[0.22em] text-ink/70">
+                <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-ink/70">
                   Sobre esta apresentação
                 </p>
                 <p className="mt-3 text-[14px] leading-[1.75] text-smoke sm:text-[15px]">

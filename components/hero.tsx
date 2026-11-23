@@ -142,7 +142,7 @@ export function Hero() {
                   <p className="mt-3 font-display text-[10px] font-semibold uppercase leading-[1.45] tracking-[0.08em] text-white/85 sm:text-[11px]">
                     {indicator.label}
                   </p>
-                  <p className="mt-1.5 hidden font-mono text-[8.5px] uppercase tracking-[0.1em] text-steel sm:block">
+                  <p className="mt-1.5 hidden font-mono text-[10px] uppercase tracking-[0.1em] text-steel sm:block">
                     {indicator.detail}
                   </p>
                 </div>
@@ -159,7 +159,7 @@ export function Hero() {
               aria-hidden="true"
               className="animate-float absolute -right-4 -top-4 hidden h-24 w-24 border-r border-t border-brand/30 lg:block"
             />
-            <div className="mb-3 flex items-center justify-between font-mono text-[8.5px] uppercase tracking-[0.22em] text-steel">
+            <div className="mb-3 flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.22em] text-steel">
               <span>Núcleo técnico / 01</span>
               <span className="hidden items-center gap-2 text-brand sm:flex">
                 <span className="relative flex h-1.5 w-1.5">
@@ -211,16 +211,16 @@ export function Hero() {
               />
               <div className="absolute inset-x-0 bottom-0 z-[2] p-5">
                 <span aria-hidden="true" className="block h-px w-10 bg-brand" />
-                <p className="mt-3 font-mono text-[8px] uppercase tracking-[0.22em] text-white/80">
+                <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.22em] text-white/80">
                   Diagnóstico computadorizado
                 </p>
               </div>
             </div>
 
-            <div className="mt-3 grid grid-cols-3 gap-2 border-t border-white/10 pt-3 font-mono text-[8px] uppercase leading-[1.6] tracking-[0.16em] text-steel">
+            <div className="mt-3 grid grid-cols-1 gap-1.5 border-t border-white/10 pt-3 font-mono text-[10px] uppercase leading-[1.6] tracking-[0.16em] text-steel sm:grid-cols-3 sm:gap-2">
               <span>Mecânica</span>
-              <span className="text-center">Elétrica automotiva</span>
-              <span className="text-right">Diagnóstico computadorizado</span>
+              <span className="sm:text-center">Elétrica automotiva</span>
+              <span className="sm:text-right">Diagnóstico computadorizado</span>
             </div>
           </div>
         </div>
@@ -233,10 +233,10 @@ export function Hero() {
               key={item}
               className="flex items-center gap-3"
             >
-              <span className="font-mono text-[8px] tracking-[0.16em] text-brand">
+              <span className="font-mono text-[10px] tracking-[0.16em] text-brand">
                 {String(index + 1).padStart(2, "0")}
               </span>
-              <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-white/55">
+              <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-white/55">
                 {item}
               </span>
             </div>

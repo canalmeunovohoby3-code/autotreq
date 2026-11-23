@@ -41,7 +41,7 @@ export function Solutions() {
             style={{ "--delay": "200ms" } as CSSProperties}
             className="hidden pb-2 lg:block"
           >
-            <span className="font-mono text-[8.5px] uppercase tracking-[0.22em] text-ink/70">
+            <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-ink/70">
               Áreas de atuação
             </span>
             <p className="num mt-1 text-4xl leading-none text-brand-deep">05</p>
@@ -92,7 +92,7 @@ export function Solutions() {
           </p>
           <a
             href="#servicos-especificos"
-            className="group inline-flex items-center gap-3 font-mono text-[9px] uppercase tracking-[0.2em] text-ink/70 transition-colors hover:text-ink"
+            className="group inline-flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.2em] text-ink/70 transition-colors hover:text-ink"
           >
             Ver serviços específicos
             <span className="flex h-8 w-8 items-center justify-center border border-ink/20 transition-colors group-hover:border-brand">
@@ -143,7 +143,7 @@ export function Solutions() {
                 considerados conforme a necessidade e o escopo de cada operação.
               </p>
               <div className="mt-5 flex items-center gap-3 border-t border-ink/15 pt-3 lg:justify-end">
-                <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-ink/70">
+                <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-ink/70">
                   {String(specificServices.length).padStart(2, "0")} serviços
                 </span>
                 <span aria-hidden="true" className="h-1 w-1 bg-brand" />
@@ -169,7 +169,7 @@ export function Solutions() {
                       : "bg-white"
                   }`}
                 >
-                  <span className="font-mono text-[9px] tracking-[0.12em] text-ink/65">
+                  <span className="font-mono text-[10px] tracking-[0.12em] text-ink/65">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                   <span className="font-display text-[12.5px] font-semibold uppercase leading-[1.35] tracking-[0.035em] text-ink sm:text-[13px]">
@@ -185,7 +185,7 @@ export function Solutions() {
                   </span>
                   <span className="ml-auto flex items-center gap-2">
                     {isLast && (
-                      <span className="hidden font-mono text-[8px] uppercase tracking-[0.18em] text-ink/70 sm:inline">
+                      <span className="hidden font-mono text-[10px] uppercase tracking-[0.18em] text-ink/70 sm:inline">
                         ART
                       </span>
                     )}
@@ -204,7 +204,7 @@ export function Solutions() {
               * A grafia “Luxumetria” permanece provisória e aguarda confirmação
               com o cliente.
             </p>
-            <p className="font-mono text-[8px] uppercase tracking-[0.18em] text-ink/60">
+            <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-ink/60">
               Lista de serviços
             </p>
           </div>

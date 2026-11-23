@@ -48,7 +48,7 @@ export function Ecosystem() {
             </p>
 
             <div className="mt-10 hidden border-t border-ink/15 pt-4 lg:block">
-              <span className="font-mono text-[8.5px] uppercase leading-[1.8] tracking-[0.16em] text-ink/70">
+              <span className="font-mono text-[10px] uppercase leading-[1.8] tracking-[0.16em] text-ink/70">
                 Locação · Terraplenagem · Logística
                 <br />
                 Mineração · Operações industriais
@@ -58,10 +58,10 @@ export function Ecosystem() {
 
           <div>
             <div className="flex items-center justify-between gap-6 border-t border-ink/25 pt-3">
-              <span className="font-mono text-[8.5px] uppercase tracking-[0.2em] text-ink/70">
+              <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/70">
                 Referências empresariais
               </span>
-              <span className="font-mono text-[8.5px] uppercase tracking-[0.2em] text-ink/70">
+              <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/70">
                 {String(ecosystem.length).padStart(2, "0")} nomes
               </span>
             </div>
@@ -76,7 +76,7 @@ export function Ecosystem() {
                   }
                 >
                   <div className="group flex min-h-[80px] items-center gap-3 border-b border-ink/15 py-4 sm:py-5">
-                    <span className="font-mono text-[8px] tracking-[0.12em] text-ink/70">
+                    <span className="font-mono text-[10px] tracking-[0.12em] text-ink/70">
                       {String(index + 1).padStart(2, "0")}
                     </span>
                     <span className="font-display text-[15px] font-bold uppercase leading-[1.25] tracking-[-0.005em] text-ink transition-transform duration-500 ease-precise group-hover:translate-x-1 sm:text-[17px] xl:text-[18px]">

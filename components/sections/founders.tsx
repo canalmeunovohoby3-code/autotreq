@@ -40,7 +40,7 @@ export function Founders() {
             className="hidden pb-1 lg:block"
           >
             <div className="flex items-center gap-4 border-t border-ink/15 pt-3">
-              <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-ink/70">
+              <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/70">
                 Fundadores
               </span>
               <span className="num text-2xl leading-none text-brand-deep">
@@ -68,11 +68,11 @@ export function Founders() {
               />
 
               <div className="flex items-start justify-between gap-4">
-                <p className="flex items-center gap-2.5 font-mono text-[9px] uppercase tracking-[0.18em] text-ink/70">
+                <p className="flex items-center gap-2.5 font-mono text-[10px] uppercase tracking-[0.18em] text-ink/70">
                   <span aria-hidden="true" className="h-1 w-1 bg-brand" />
                   {founder.role}
                 </p>
-                <span className="font-mono text-[9px] tracking-[0.12em] text-ink/70">
+                <span className="font-mono text-[10px] tracking-[0.12em] text-ink/70">
                   /{String(index + 1).padStart(2, "0")}
                 </span>
               </div>
@@ -102,12 +102,12 @@ export function Founders() {
 
               <div className="mt-auto pt-8">
                 <div className="flex min-h-[34px] flex-wrap items-center justify-between gap-3 border-t border-ink/15 pt-4">
-                  <span className="font-mono text-[8px] uppercase tracking-[0.2em] text-ink/70">
+                  <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/70">
                     Perfil profissional
                   </span>
 
                   {founder.badge ? (
-                    <span className="inline-flex items-center gap-1.5 border border-brand/40 bg-brand/[0.07] px-2.5 py-1.5 font-mono text-[7.5px] uppercase tracking-[0.14em] text-ink">
+                    <span className="inline-flex items-center gap-1.5 border border-brand/40 bg-brand/[0.07] px-2.5 py-1.5 font-mono text-[10px] uppercase tracking-[0.14em] text-ink">
                       <ShieldCheck
                         aria-hidden="true"
                         className="h-3 w-3 text-brand-deep"
@@ -129,7 +129,7 @@ export function Founders() {
 
         <p
           data-reveal
-          className="mt-6 max-w-[640px] font-mono text-[8.5px] uppercase leading-[1.8] tracking-[0.12em] text-ink/70"
+          className="mt-6 max-w-[640px] font-mono text-[10px] uppercase leading-[1.8] tracking-[0.12em] text-ink/70"
         >
           Apresentação institucional baseada nas informações fornecidas pela
           empresa.

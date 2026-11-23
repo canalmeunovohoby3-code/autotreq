@@ -80,7 +80,7 @@ export function OperationGallery() {
             className="hidden pb-2 lg:block"
           >
             <div className="flex items-center gap-4 border-t border-ink/15 pt-3">
-              <span className="font-mono text-[8.5px] uppercase tracking-[0.2em] text-ink/70">
+              <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink/70">
                 Imagens
               </span>
               <span className="num text-2xl leading-none text-brand-deep">
@@ -122,7 +122,7 @@ export function OperationGallery() {
                 className="absolute left-4 top-4 h-6 w-6 border-l border-t border-white/60"
               />
               <figcaption className="absolute inset-x-0 bottom-0 flex items-center justify-between gap-4 p-4 sm:p-5">
-                <span className="font-mono text-[9px] tracking-[0.16em] text-white/85">
+                <span className="font-mono text-[10px] tracking-[0.16em] text-white/85">
                   {String(index + 1).padStart(2, "0")}
                 </span>
                 <span
