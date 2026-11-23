@@ -78,8 +78,8 @@ export function Contact() {
         >
           <span className="title-mask">
             <span className="title-mask-inner">
-              Estamos prontos para conhecer suas necessidades e construir
-              oportunidades baseadas em{" "}
+              Estamos prontos para conhecer as necessidades da sua operação
+              automotiva e construir oportunidades baseadas em{" "}
               <span className="text-brand">competência técnica</span>,
               transparência e{" "}
               <span className="relative inline-block">
@@ -108,14 +108,14 @@ export function Contact() {
             >
               <span className="flex items-center gap-3">
                 <MessageCircle aria-hidden="true" className="h-5 w-5" />
-                Vamos conversar sobre a sua operação
+                Vamos conversar sobre a sua operação automotiva
               </span>
               <ArrowUpRight aria-hidden="true" className="h-5 w-5" />
             </a>
 
             <p className="mt-6 max-w-[380px] text-[13px] leading-[1.75] text-white/60">
               Fale diretamente com a equipe da AutoTreq para apresentar a
-              necessidade da sua operação.
+              necessidade da sua operação automotiva.
             </p>
 
             <div className="mt-10 border-t border-white/10 pt-4">

@@ -8,10 +8,10 @@ import { indicators } from "@/lib/content";
 import { whatsappHref } from "@/lib/site";
 
 const strip = [
-  "Automação industrial",
+  "Veículos e máquinas",
   "Diagnóstico computadorizado",
-  "Engenharia mecânica",
-  "Manutenção técnica",
+  "Manutenção automotiva",
+  "Aplicações industriais",
 ];
 
 const heroWords: Array<{ text: string; accent?: boolean } | { break: true }> = [
@@ -49,7 +49,7 @@ export function Hero() {
               </span>
               <span aria-hidden="true" className="h-[2px] w-8 bg-brand" />
               <p className="eyebrow text-white/65">
-                Soluções técnicas
+                Automotivo
                 <span className="mx-2 hidden text-brand sm:inline">·</span>
                 <span className="block sm:inline">Terra Santa — PA</span>
               </p>
@@ -81,9 +81,10 @@ export function Hero() {
               className="hero-up mt-8 max-w-[560px] text-[15px] leading-[1.8] text-[#b6b3b4] sm:text-base"
               style={{ animationDelay: "500ms" }}
             >
-              Soluções técnicas fundamentadas em conhecimento, engenharia e
-              compromisso com resultados. Uma empresa construída para atender
-              às necessidades de operações automotivas e industriais.
+              Soluções técnicas automotivas fundamentadas em conhecimento,
+              engenharia e compromisso com resultados. Atuação em veículos
+              leves, pesados, caminhões, tratores e máquinas, com aplicações
+              industriais complementares.
             </p>
 
             <div
@@ -91,11 +92,11 @@ export function Hero() {
               style={{ animationDelay: "600ms" }}
             >
               <a
-                href="#empresa"
+                href="#solucoes"
                 data-magnetic
                 className="btn btn-primary w-full sm:w-auto"
               >
-                Conheça a AutoTreq
+                Conheça nossas soluções
                 <ArrowDownRight aria-hidden="true" />
               </a>
               <a
@@ -217,9 +218,9 @@ export function Hero() {
             </div>
 
             <div className="mt-3 grid grid-cols-3 border-t border-white/10 pt-3 font-mono text-[8px] uppercase tracking-[0.16em] text-steel">
-              <span>Engenharia</span>
-              <span className="text-center">Automação</span>
-              <span className="text-right">Diagnóstico</span>
+              <span>Veículos</span>
+              <span className="text-center">Diagnóstico</span>
+              <span className="text-right">Manutenção</span>
             </div>
           </div>
         </div>

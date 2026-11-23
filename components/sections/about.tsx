@@ -86,9 +86,12 @@ export function About() {
               style={{ "--delay": "80ms" } as CSSProperties}
               className="max-w-[640px] text-[18px] leading-[1.7] text-ink sm:text-[20px]"
             >
-              A AutoTreq Figueiredo Ltda. foi fundada em Terra Santa, no Pará,
-              por profissionais com formação técnica voltada ao universo
-              industrial e à manutenção de equipamentos.
+              Com atuação principal no segmento automotivo, a AutoTreq
+              Figueiredo Ltda. atende veículos leves, pesados, caminhões,
+              tratores e máquinas, além de aplicações industriais complementares.
+              A empresa foi fundada em Terra Santa, no Pará, por profissionais
+              com formação técnica voltada ao universo industrial e à manutenção
+              de equipamentos.
             </p>
 
             <div className="mt-7 max-w-[640px] space-y-6">
@@ -99,9 +102,10 @@ export function About() {
               >
                 Nossa atuação parte de uma convicção simples: serviços técnicos
                 exigem conhecimento, método e responsabilidade. Por isso, a
-                empresa nasce com a engenharia mecânica, a automação industrial
-                e o diagnóstico computadorizado como base de sua forma de
-                trabalhar.
+                empresa combina diagnóstico computadorizado, engenharia mecânica
+                e automação industrial como base técnica para atender veículos,
+                máquinas e equipamentos, com aplicações industriais
+                complementares.
               </p>
 
               <div

@@ -3,7 +3,7 @@ export const indicators = [
     value: 3,
     display: "03",
     label: "Áreas de formação técnica",
-    detail: "Automação · Diagnóstico · Engenharia",
+    detail: "Diagnóstico · Engenharia · Automação",
   },
   {
     value: 2,
@@ -55,31 +55,31 @@ export const principles = [
 export const pillars = [
   {
     letter: "A",
-    icon: "automation",
-    title: "Automação industrial",
-    description:
-      "Formação técnica que aproxima a empresa da lógica de controle, sensores e sistemas presentes nas operações industriais.",
-  },
-  {
-    letter: "B",
     icon: "diagnostics",
     title: "Diagnóstico computadorizado",
     description:
       "Conhecimento aplicado à leitura e à interpretação de dados dos equipamentos, base para identificar a origem dos problemas.",
   },
   {
-    letter: "C",
+    letter: "B",
     icon: "engineering",
     title: "Engenharia mecânica",
     description:
       "Formação em engenharia que sustenta a análise de componentes, sistemas mecânicos e a tomada de decisão técnica.",
   },
   {
-    letter: "D",
+    letter: "C",
     icon: "shield",
     title: "Responsabilidade técnica",
     description:
       "Vínculo da responsabilidade técnica da empresa ao engenheiro mecânico indicado pela AutoTreq.",
+  },
+  {
+    letter: "D",
+    icon: "automation",
+    title: "Automação industrial",
+    description:
+      "Formação técnica que aproxima a empresa da lógica de controle, sensores e sistemas presentes nas operações industriais.",
   },
 ] as const;
 
@@ -87,7 +87,8 @@ export const areas = [
   {
     number: "01",
     title: "Manutenção de veículos leves e pesados",
-    description: "Equipamentos automotores de linha leve e pesada.",
+    description:
+      "Veículos leves, caminhões, tratores, máquinas e equipamentos automotivos, conforme o escopo de cada operação.",
   },
   {
     number: "02",
@@ -97,9 +98,9 @@ export const areas = [
   },
   {
     number: "03",
-    title: "Automação industrial",
+    title: "Manutenção e suporte técnico",
     description:
-      "Apoio técnico em soluções de automação aplicadas a equipamentos e processos industriais.",
+      "Suporte e manutenção alinhados ao escopo acordado com cada cliente.",
   },
   {
     number: "04",
@@ -109,15 +110,13 @@ export const areas = [
   },
   {
     number: "05",
-    title: "Manutenção e suporte técnico",
+    title: "Automação industrial",
     description:
-      "Suporte e manutenção alinhados ao escopo acordado com cada cliente.",
+      "Apoio técnico em soluções de automação aplicadas a equipamentos e processos industriais.",
   },
 ] as const;
 
 export const specificServices = [
-  { name: "Luxumetria", pending: true },
-  { name: "Telemetria" },
   { name: "Injeção eletrônica" },
   { name: "Refrigeração automotiva" },
   { name: "Sistemas ABS" },
@@ -128,6 +127,8 @@ export const specificServices = [
   { name: "Ajustes de câmbio" },
   { name: "Manutenção preventiva e corretiva" },
   { name: "Suspensão automotiva" },
+  { name: "Telemetria" },
+  { name: "Luxumetria", pending: true },
   { name: "Laudos técnicos com ARTs" },
 ] as const;
 
@@ -141,7 +142,7 @@ export const founders = [
       "Formação técnica em Diagnóstico Computadorizado",
     ],
     description:
-      "Sua formação em automação industrial e em diagnóstico computadorizado traz à AutoTreq uma base técnica voltada à compreensão de sistemas e à interpretação de dados dos equipamentos.",
+      "Sua formação em automação industrial e em diagnóstico computadorizado traz à AutoTreq uma base técnica voltada ao diagnóstico e à manutenção automotiva, com compreensão de sistemas e interpretação de dados dos equipamentos.",
     badge: null,
   },
   {
@@ -150,7 +151,7 @@ export const founders = [
     role: "Fundador · Responsável técnico",
     credentials: ["Engenheiro Mecânico", "Responsável técnico da AutoTreq"],
     description:
-      "Sua formação em Engenharia Mecânica sustenta o rigor técnico da empresa. Como responsável técnico, representa o compromisso da AutoTreq com a responsabilidade sobre os serviços.",
+      "Sua formação em Engenharia Mecânica sustenta o rigor técnico da AutoTreq na atuação automotiva. Como responsável técnico, representa o compromisso da empresa com a responsabilidade sobre os serviços.",
     badge: "Responsável técnico",
   },
 ] as const;

@@ -35,9 +35,9 @@ export function Expertise() {
             title={
               <>
                 Conhecimento técnico
-                <br className="hidden sm:block" /> como{" "}
+                <br className="hidden sm:block" /> aplicado ao{" "}
                 <span className="relative inline-block">
-                  <span className="text-brand-deep">diferencial</span>
+                  <span className="text-brand-deep">automotivo</span>
                   <span
                     aria-hidden="true"
                     className="absolute -bottom-1 left-0 h-[3px] w-full bg-brand"
@@ -54,9 +54,11 @@ export function Expertise() {
             className="lg:pb-2"
           >
             <p className="max-w-[500px] text-[15px] leading-[1.8] text-smoke">
-              Em operações industriais, decisões técnicas precisam ser bem
+              No segmento automotivo, decisões técnicas precisam ser bem
               fundamentadas. A formação dos fundadores da AutoTreq compõe uma
-              base sólida para esse tipo de atuação.
+              base sólida para diagnósticos e decisões em veículos leves,
+              pesados, tratores e máquinas, com aplicações complementares em
+              operações industriais.
             </p>
             <div className="mt-6 flex items-center gap-3 border-t border-ink/15 pt-3">
               <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-ink/70">

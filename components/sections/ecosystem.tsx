@@ -41,9 +41,10 @@ export function Ecosystem() {
               className="mt-7 max-w-[480px] text-[14.5px] leading-[1.8] text-smoke"
             >
               O mercado em que a AutoTreq se posiciona é formado por empresas de
-              locação, terraplenagem, logística, mineração e operações
-              industriais. As empresas abaixo fazem parte do ecossistema
-              empresarial relacionado à trajetória da AutoTreq.
+              locação, terraplenagem, logística e mineração, com atuação
+              complementar em operações industriais. As empresas abaixo fazem
+              parte do ecossistema empresarial relacionado à trajetória da
+              AutoTreq.
             </p>
 
             <div className="mt-10 hidden border-t border-ink/15 pt-4 lg:block">

@@ -11,28 +11,34 @@ import { SectionIntro } from "@/components/section-intro";
 
 const photos = [
   {
-    src: foto1,
-    alt: "Técnico realizando manutenção no interior de um veículo",
-  },
-  {
     src: foto2,
     alt: "Caminhão pesado em manutenção na oficina",
-  },
-  {
-    src: foto3,
-    alt: "Equipamento de diagnóstico conectado ao painel de um veículo",
+    position: "50% 50%",
   },
   {
     src: foto4,
     alt: "Veículo suspenso em elevador durante serviço de manutenção",
+    position: "50% 58%",
   },
   {
     src: foto5,
     alt: "Veículo posicionado em elevador de coluna para inspeção",
+    position: "50% 50%",
+  },
+  {
+    src: foto1,
+    alt: "Técnico realizando manutenção no interior de um veículo",
+    position: "50% 50%",
+  },
+  {
+    src: foto3,
+    alt: "Equipamento de diagnóstico conectado ao painel de um veículo",
+    position: "50% 50%",
   },
   {
     src: foto6,
     alt: "Motor aberto durante serviço de manutenção e sincronização",
+    position: "50% 50%",
   },
 ] as const;
 
@@ -56,15 +62,15 @@ export function OperationGallery() {
         <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
           <SectionIntro
             index="05.2"
-            label="Registros de operação"
+            label="Registros automotivos"
             tone="light"
             title={
               <>
                 Técnica aplicada no{" "}
-                <span className="text-brand-deep">dia a dia</span>.
+                <span className="text-brand-deep">automotivo</span>.
               </>
             }
-            intro="Manutenção, diagnóstico e suporte técnico em veículos leves e pesados, registrados em diferentes frentes de operação."
+            intro="Manutenção e diagnóstico em veículos leves e pesados, registrados em diferentes frentes de operação."
             className="max-w-4xl"
           />
 
@@ -103,7 +109,8 @@ export function OperationGallery() {
                 placeholder="blur"
                 quality={85}
                 sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, (min-width: 1440px) 420px, 33vw"
-                className="object-cover object-center transition-transform duration-700 ease-precise group-hover:scale-[1.03]"
+                style={{ objectPosition: photo.position }}
+                className="object-cover transition-transform duration-700 ease-precise group-hover:scale-[1.03]"
               />
 
               <div

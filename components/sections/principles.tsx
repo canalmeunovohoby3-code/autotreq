@@ -12,7 +12,7 @@ const direction = [
   {
     index: "02",
     label: "Visão",
-    text: "Ser reconhecida pela competência técnica e pela confiança construída nos relacionamentos com empresas industriais e de serviços.",
+    text: "Ser reconhecida pela competência técnica no segmento automotivo e pela confiança construída nos relacionamentos com empresas de serviços e operações industriais.",
   },
 ];
 

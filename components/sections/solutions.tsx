@@ -27,11 +27,12 @@ export function Solutions() {
             tone="light"
             title={
               <>
-                Soluções para diferentes{" "}
-                <span className="text-brand-deep">operações</span>.
+                Soluções{" "}
+                <span className="text-brand-deep">automotivas</span> para
+                diferentes operações.
               </>
             }
-            intro="Áreas em que a AutoTreq pode dialogar com o cliente, detalhadas conforme a necessidade de cada operação."
+            intro="Manutenção, diagnóstico e soluções técnicas para veículos leves, pesados, caminhões, tratores e máquinas, com aplicações industriais complementares."
             className="max-w-4xl"
           />
 
@@ -132,14 +133,14 @@ export function Solutions() {
                 />
               </div>
               <h3 className="mt-5 font-display text-[clamp(1.8rem,3.4vw,2.8rem)] font-extrabold uppercase leading-[0.98] tracking-[-0.02em] text-ink">
-                Aplicações técnicas
+                Serviços automotivos
               </h3>
             </div>
 
             <div data-reveal style={{ "--delay": "100ms" } as CSSProperties}>
               <p className="max-w-[500px] text-[14px] leading-[1.75] text-smoke lg:ml-auto">
-                Frentes de serviço que podem ser consideradas conforme a
-                necessidade e o escopo de cada operação.
+                Serviços automotivos e de apoio técnico que podem ser
+                considerados conforme a necessidade e o escopo de cada operação.
               </p>
               <div className="mt-5 flex items-center gap-3 border-t border-ink/15 pt-3 lg:justify-end">
                 <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-ink/70">

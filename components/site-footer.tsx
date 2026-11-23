@@ -41,8 +41,9 @@ export function SiteFooter() {
             </a>
 
             <p className="mt-6 max-w-[360px] text-[13px] leading-[1.8] text-white/45">
-              Soluções técnicas em manutenção automotiva, diagnóstico
-              computadorizado, automação industrial e engenharia mecânica.
+              Manutenção automotiva de veículos leves, pesados, caminhões,
+              tratores e máquinas, com diagnóstico computadorizado, engenharia
+              mecânica e aplicações industriais.
             </p>
 
             <div className="mt-7 flex items-center gap-2">
