@@ -217,10 +217,10 @@ export function Hero() {
               </div>
             </div>
 
-            <div className="mt-3 grid grid-cols-3 border-t border-white/10 pt-3 font-mono text-[8px] uppercase tracking-[0.16em] text-steel">
-              <span>Veículos</span>
-              <span className="text-center">Diagnóstico</span>
-              <span className="text-right">Manutenção</span>
+            <div className="mt-3 grid grid-cols-3 gap-2 border-t border-white/10 pt-3 font-mono text-[8px] uppercase leading-[1.6] tracking-[0.16em] text-steel">
+              <span>Mecânica</span>
+              <span className="text-center">Elétrica automotiva</span>
+              <span className="text-right">Diagnóstico computadorizado</span>
             </div>
           </div>
         </div>
