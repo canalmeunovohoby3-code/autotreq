@@ -135,6 +135,7 @@ export function SiteFooter() {
           <p className="font-mono text-[10px] uppercase leading-[1.8] tracking-[0.14em] text-white/55">
             © {new Date().getFullYear()} AutoTreq Figueiredo Ltda.
             <br className="sm:hidden" /> Todos os direitos reservados.
+            <span className="mt-1 block">CNPJ 62.693.396/0001-57</span>
           </p>
 
           <div className="flex items-center gap-6">
